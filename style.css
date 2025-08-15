@@ -307,4 +307,14 @@ footer {
     height: 40px;
     padding-bottom: 5px;
     width: 100%;
+
   }
+
+
+audio {
+    background: rgba(0, 0, 0, 0.5); /* 50% transparent black */
+    border-radius: 10px;
+    padding: 8px;
+    /* For browsers that support it */
+    backdrop-filter: blur(2px);
+}
